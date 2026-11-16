@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mashego Mashego — Data, Systems & Economics</title>
+  <meta name="description" content="Economics & Informatics graduate. SQL, Power BI, econometrics, and system design." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <nav class="nav">
+    <a class="nav-logo" href="#top">MM<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about"><span>01</span>About</a></li>
+      <li><a href="#projects"><span>02</span>Projects</a></li>
+      <li><a href="#skills"><span>03</span>Skills</a></li>
+      <li><a href="#path"><span>04</span>Path</a></li>
+      <li><a href="#offclock"><span>05</span>Off the clock</a></li>
+      <li><a href="#contact"><span>06</span>Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- sourdough starter: rises as you scroll -->
+  <div class="starter" aria-hidden="true">
+    <div class="jar"><div class="jar-fill"><i></i><i></i><i></i></div><div class="jar-band"></div></div>
+    <span>starter</span>
+  </div>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero" id="top">
+    <canvas id="spark" aria-hidden="true"></canvas>
+    <div class="hero-inner">
+      <div class="status"><span class="pulse"></span>Open to 2027 graduate roles</div>
+      <h1>Mashego Mashego</h1>
+      <p class="lede">
+        Economics &amp; Informatics student. I turn messy data into decisions,
+        and business requirements into systems that <em>actually work</em>.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="cv.pdf" download>↓ Download CV</a>
+        <a class="btn" href="#projects">View projects</a>
+      </div>
+      <ul class="hero-meta">
+        <li>Oracle SQL</li>
+        <li>Power BI</li>
+        <li>Python</li>
+        <li>C# / .NET</li>
+        <li>Econometrics (R, EViews)</li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <p class="section-label">01 — About</p>
+        <h2>Two disciplines, one way of thinking.</h2>
+        <div class="about-grid">
+          <p>
+            I'm in my third year of a BCom in Economic Science, majoring in
+            Economics and Informatics at North West University. The combination
+            isn't accidental: economics taught me to ask <strong>what the data means</strong>,
+            and informatics taught me to <strong>build the thing that produces it</strong>.
+          </p>
+          <p>
+            In practice that means I've designed and normalised an Oracle database,
+            led a team through a system-analysis project end-to-end, written
+            advanced SQL to interrogate e-hailing operations, and estimated
+            regression models on US house prices. I like the part where a messy
+            problem becomes a clean schema, a clear dashboard, or a defensible number.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="section-label">02 — Projects</p>
+        <h2>Selected work</h2>
+        <p class="section-intro">
+          Each of these started with a question. The interesting part was never
+          the tool — it was proving the answer.
+        </p>
+
+                <div class="projects">
+
+          <!-- Project 1 -->
+          <article class="project project--recipe" data-reveal>
+            <header class="recipe-head">
+              <p class="kicker">Advanced Databases · Team</p>
+              <h3>E-Hailing Operations Analysis</h3>
+              <p class="recipe-meta">Prep: 3 weeks · Serves: 1 recruiter</p>
+            </header>
+            <p class="q">"Where does ride-hailing reliability actually break — cancellations or safety?"</p>
+            <h4 class="recipe-label">Ingredients</h4>
+            <p class="recipe-ingredients">Advanced SQL · Power BI · trip &amp; safety data · fleet-quality signals</p>
+            <h4 class="recipe-label">Method</h4>
+            <ol class="recipe-method">
+              <li>Queried cancellations against safety incidents per driver cohort.</li>
+              <li>Modelled the relationship in Power BI to see which drove trust loss.</li>
+              <li>Surfaced operational recommendations on fleet quality.</li>
+            </ol>
+            <footer class="recipe-foot">
+              <span class="recipe-label">Result</span>
+              <span class="chip chip--amber">Recommendation delivered</span>
+            </footer>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project project--recipe" data-reveal>
+            <header class="recipe-head">
+              <p class="kicker">Database Design · Team lead</p>
+              <h3>Labour &amp; Enterprise Connect</h3>
+              <p class="recipe-meta">Prep: 4 weeks · Serves: 1 recruiter</p>
+            </header>
+            <p class="q">"How do you model trust between three parties in one schema?"</p>
+            <h4 class="recipe-label">Ingredients</h4>
+            <p class="recipe-ingredients">Oracle · ERD · Normalisation · Team lead</p>
+            <h4 class="recipe-label">Method</h4>
+            <ol class="recipe-method">
+              <li>Led a team designing an Oracle database connecting manual labourers, contractors and enterprises.</li>
+              <li>Modelled the ERD and normalised schema to enforce integrity across users, jobs and contracts.</li>
+              <li>Wrote and tested the SQL behind job-matching and reporting.</li>
+            </ol>
+            <footer class="recipe-foot">
+              <span class="recipe-label">Result</span>
+              <span class="chip">82.6% achieved</span>
+            </footer>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project project--recipe" data-reveal>
+            <header class="recipe-head">
+              <p class="kicker">Econometrics · EViews &amp; R</p>
+              <h3>What Drives US House Prices</h3>
+              <p class="recipe-meta">Prep: 2 weeks · Serves: 1 recruiter</p>
+            </header>
+            <p class="q">"Which variables actually explain house-price movement — and which are noise?"</p>
+            <h4 class="recipe-label">Ingredients</h4>
+            <p class="recipe-ingredients">EViews · R · Regression · Interpretation</p>
+            <h4 class="recipe-label">Method</h4>
+            <ol class="recipe-method">
+              <li>Estimated and interpreted multiple regression models on US house-price data.</li>
+              <li>Translated statistical output into plain-language economic conclusions.</li>
+            </ol>
+            <footer class="recipe-foot">
+              <span class="recipe-label">Result</span>
+              <span class="chip chip--amber">Economic insights</span>
+            </footer>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project project--recipe" data-reveal>
+            <header class="recipe-head">
+              <p class="kicker">System Analysis · Team</p>
+              <h3>Skilled Labour Connection</h3>
+              <p class="recipe-meta">Prep: 3 weeks · Serves: 1 recruiter</p>
+            </header>
+            <p class="q">"What does the user actually need before a single line is written?"</p>
+            <h4 class="recipe-label">Ingredients</h4>
+            <p class="recipe-ingredients">Requirements · DFD · ERD · Blazor</p>
+            <h4 class="recipe-label">Method</h4>
+            <ol class="recipe-method">
+              <li>Gathered and documented requirements, mapped processes with DFDs.</li>
+              <li>Contributed UI/UX design for a clear interface in a Blazor prototype.</li>
+            </ol>
+            <footer class="recipe-foot">
+              <span class="recipe-label">Result</span>
+              <span class="chip">Prototype delivered</span>
+            </footer>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project project--recipe" data-reveal>
+            <header class="recipe-head">
+              <p class="kicker">Programming · C++ &amp; SQL</p>
+              <h3>Campus Bicycle Rental</h3>
+              <p class="recipe-meta">Prep: 2 weeks · Serves: 1 recruiter</p>
+            </header>
+            <p class="q">"Can a small system solve a real campus problem end-to-end?"</p>
+            <h4 class="recipe-label">Ingredients</h4>
+            <p class="recipe-ingredients">C++ · SQL · Payments</p>
+            <h4 class="recipe-label">Method</h4>
+            <ol class="recipe-method">
+              <li>Designed and built a functional rental system prototype.</li>
+              <li>Implemented a secure payment module covering transaction flow.</li>
+            </ol>
+            <footer class="recipe-foot">
+              <span class="recipe-label">Result</span>
+              <span class="chip">Functional system</span>
+            </footer>
+          </article>
+
+          <!-- Placeholder -->
+          <article class="project project--ghost" data-reveal>
+            <p class="kicker">Currently building</p>
+            <h3>Personal projects</h3>
+            <p>
+              In progress: a <strong>SA macro dashboard</strong> (Python + Streamlit),
+              a <strong>job-market scraper &amp; warehouse</strong> (Python, PostgreSQL, dbt),
+              and a <strong>student budget app</strong> (C# / .NET MAUI).
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="section-label">03 — Skills</p>
+        <h2>The two halves</h2>
+        <div class="skills">
+
+          <div class="skill-col skill-col--econ" data-reveal>
+            <h3>Economics / Quant</h3>
+            <ul>
+              <li>Econometric modelling &amp; interpretation</li>
+              <li>Regression analysis (EViews, R)</li>
+              <li>Macro &amp; micro economic analysis</li>
+              <li>Investment &amp; financial markets</li>
+              <li>Bank risk management</li>
+              <li>Data interpretation &amp; reporting</li>
+            </ul>
+          </div>
+
+          <div class="skill-col skill-col--info" data-reveal>
+            <h3>Data / Informatics</h3>
+            <ul>
+              <li>Oracle SQL — design, normalisation, advanced querying</li>
+              <li>Power BI — dashboards &amp; visualisation</li>
+              <li>C# / .NET, .NET MAUI, Blazor</li>
+              <li>Python (intermediate), C++ (intermediate)</li>
+              <li>System analysis — requirements, DFDs, ERDs</li>
+              <li>Git &amp; version control</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PATH ============ -->
+    <section class="section" id="path">
+      <div class="container">
+        <p class="section-label">04 — Path</p>
+        <h2>Education &amp; experience</h2>
+        <div class="timeline">
+
+          <div class="tl-item" data-reveal>
+            <h3>BCom Economic Science — Economics &amp; Informatics</h3>
+            <p class="meta">North West University · 2024 – 2027 (expected)</p>
+            <p>
+              Distinction in Apps &amp; Advanced User Interface Programming.
+              Coursework: Econometrics, Advanced Databases, Databases, Decision
+              Support Systems, Information Security, Investment Management,
+              Bank Risk Management, Macro- &amp; Micro-Economics, Financial Markets.
+            </p>
+          </div>
+
+          <div class="tl-item" data-reveal>
+            <h3>Team lead — Database Design Project</h3>
+            <p class="meta">North West University · 1st semester</p>
+            <p>
+              Coordinated a team from ERD through normalisation to tested SQL
+              queries, delivering a working Oracle database and 82.6% for the project.
+            </p>
+          </div>
+
+          <div class="tl-item" data-reveal>
+            <h3>National Senior Certificate</h3>
+            <p class="meta">Matric · 2022</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section offclock" id="offclock">
+  <div class="container">
+    <p class="section-label">05 — Off the clock</p>
+    <h2>The other things I iterate on</h2>
+    <ul class="offclock-list">
+      
+      <!-- Cooking -->
+      <li data-reveal>
+        <span class="offclock-icon">🍳</span>
+        <div>
+          <strong>Cooking</strong>
+          <p>Mise en place is just <b>database normalisation</b> for the kitchen. If your ingredients aren't indexed before the execution phase, the whole query (dinner) fails.</p>
+        </div>
+      </li>
+
+      <!-- Baking -->
+      <li data-reveal>
+        <span class="offclock-icon">🍞</span>
+        <div>
+          <strong>Baking</strong>
+          <p>Baking is a closed-loop system with high sensitivity to input variance. I'm currently 14 iterations deep into optimising my sourdough's fermentation curve.</p>
+          <!-- Mini scatter plot to show the iterations -->
+          <svg class="overload" viewBox="0 0 220 50" role="img" aria-label="Scatter plot showing baking iterations over time">
+            <circle cx="20" cy="40" r="2" fill="var(--muted)" opacity="0.4"/>
+            <circle cx="45" cy="35" r="2" fill="var(--muted)" opacity="0.4"/>
+            <circle cx="70" cy="38" r="2" fill="var(--muted)" opacity="0.4"/>
+            <circle cx="95" cy="25" r="2" fill="var(--muted)" opacity="0.4"/>
+            <circle cx="120" cy="28" r="2" fill="var(--muted)" opacity="0.4"/>
+            <circle cx="145" cy="15" r="2" fill="var(--muted)" opacity="0.4"/>
+            <circle cx="170" cy="18" r="2" fill="var(--muted)" opacity="0.4"/>
+            <circle cx="210" cy="5" r="3.5" fill="var(--terracotta)"/>
+            <path d="M15 42 L215 2" stroke="var(--muted)" stroke-width="1" stroke-dasharray="3 3" opacity="0.3"/>
+          </svg>
+        </div>
+      </li>
+
+      <!-- Training -->
+      <li data-reveal>
+        <span class="offclock-icon">🏋️</span>
+        <div>
+          <strong>Training</strong>
+          <p>Progressive overload is just <b>compound interest</b> for your body. I track my lifts in a spreadsheet because if a metric isn't logged, it didn't happen.</p>
+          <svg class="overload" viewBox="0 0 220 60" role="img" aria-label="Training load climbing over twelve weeks, with planned deload dips">
+            <path pathLength="1" d="M4 52 L24 46 L44 40 L64 46 L84 34 L104 28 L124 34 L144 22 L164 16 L184 22 L216 6"/>
+            <circle cx="216" cy="6" r="3.5"/>
+          </svg>
+        </div>
+      </li>
+
+      <!-- Tech / Building -->
+      <li data-reveal>
+        <span class="offclock-icon">💻</span>
+        <div>
+          <strong>Building</strong>
+          <p>Informatics is just applying laziness at scale. I write code to automate things that annoy me — usually because I wanted a tool that didn't exist yet.</p>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+</section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <p class="section-label">06 — Contact</p>
+        <p class="big">Looking for a graduate who can read the data<br />and build the system? Let's talk.</p>
+        <div class="hero-actions center">
+          <a class="btn btn-primary" href="mailto:mashegomashego01@gmail.com"> mashegomashego01@gmail.com ↗</a>
+          <a class="btn" href="https://github.com/Mashego-00" target="_blank" rel="noopener">GitHub ↗</a>
+          <a class="btn" href="https://linkedin.com/in/mashego-mashego" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>© <span id="year"></span> Mashego Mashego</span>
+      <span>Built from scratch · HTML · CSS · JS</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
