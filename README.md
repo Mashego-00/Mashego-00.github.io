@@ -6,7 +6,7 @@
 
 A hand-built personal portfolio where every project is written up like a recipe.
 
-[![Live site](https://img.shields.io/badge/live-view%20site-2f9e7a?style=for-the-badge)](https://Mashego-00.github.io/your-repo/)
+[![Live site](https://img.shields.io/badge/live-view%20site-2f9e7a?style=for-the-badge)](https://Mashego-00.github.io)
 ![HTML](https://img.shields.io/badge/HTML5-c67b2e?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-c0533b?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-2b2118?style=for-the-badge&logo=javascript&logoColor=white)
