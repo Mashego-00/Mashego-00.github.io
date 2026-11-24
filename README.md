@@ -1,12 +1,12 @@
 <div align="center">
 
-# Your Name — Portfolio
+# Mashego Mashego — Portfolio
 
 **Economics & Informatics. Data, systems and a bit of sourdough.**
 
 A hand-built personal portfolio where every project is written up like a recipe.
 
-[![Live site](https://img.shields.io/badge/live-view%20site-2f9e7a?style=for-the-badge)](https://yourhandle.github.io/your-repo/)
+[![Live site](https://img.shields.io/badge/live-view%20site-2f9e7a?style=for-the-badge)](https://Mashego-00.github.io/your-repo/)
 ![HTML](https://img.shields.io/badge/HTML5-c67b2e?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-c0533b?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-2b2118?style=for-the-badge&logo=javascript&logoColor=white)
@@ -43,7 +43,7 @@ It's built from scratch with no frameworks, no build step and no dependencies. O
 └── README.md
 ```
 
-## Run locally
+## Run locally <https://Mashego-00.github.io>
 
 ```bash
 git clone https://github.com/yourhandle/your-repo.git
@@ -52,7 +52,7 @@ cd your-repo
 python3 -m http.server 8000
 ```
 
-Then visit <http://localhost:8000>.
+Then visit .
 
 ## Deploy with GitHub Pages
 
@@ -76,9 +76,9 @@ Then visit <http://localhost:8000>.
 
 ## Contact
 
-- Email: [you@email.com](mailto:you@email.com)
-- LinkedIn: [linkedin.com/in/yourhandle](https://linkedin.com/in/yourhandle)
-- GitHub: [@yourhandle](https://github.com/yourhandle)
+- Email: [mashegomashego01@email.com](mailto:mashegomashego01@email.com)
+- LinkedIn: [linkedin.com/in/mashego-mashego](https://linkedin.com/in/mashego-mashego)
+- GitHub: [@Mashego-00](https://github.com/Mashego-00)
 
 ## License
 
